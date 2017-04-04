@@ -1,0 +1,19 @@
+<html>
+<head> <title> Angular JS Expressions </title>
+  <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+
+</head>
+
+<body>
+  <h1> Sample App using Expressions </h1>
+
+  <div ng-app = "" ng-init = "cost = 9000;months = 6;
+  mydetails = {fname:'Aditya',lastname:'Bhardwaj',rno:
+  692};cgpa = [9,9,7,8,8]">
+    <p> Hello {{mydetails.fname +" "+ mydetails.lastname}}!</p>
+    <p> Expense online : {{cost*months}} rupees </p>
+    <p> Roll no : {{mydetails.rno}}</p>
+    <p> CGPA last sem : {{cgpa[4]}} </p>
+  </div>
+</body>
+</html>
